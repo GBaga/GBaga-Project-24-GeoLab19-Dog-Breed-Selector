@@ -1,0 +1,100 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+#page-title {
+  font-size: 36px;
+  color: #011d62;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#page-description {
+  font-size: 18px;
+  color: #b0b0b0;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#breed-name {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #011d62;
+  cursor: pointer;
+  margin-right: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#breed-name:hover {
+  border-color: #ea0444;
+}
+
+#fetch-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ea0444;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#fetch-btn:hover {
+  background-color: #011d62;
+  transform: scale(1.05);
+}
+
+#breed-images-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#breed-images-list img {
+  border: 2px solid #b0b0b0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#breed-images-list img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+  border-color: #ea0444;
+}
+
+li {
+  position: relative;
+  align-content: center;
+}
+
+h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #011d62;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
